@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types';
 import s from './Article.module.scss';
-import Tag from '../../elements/Tag/Tag';
-import CommentsCounter from '../../elements/CommentsCounter/CommentsCounter';
-import LikesCounter from '../../elements/LikesCounter/LikesCounter';
+import Tag from '../../elements/Tag';
+import CommentsCounter from '../../elements/CommentsCounter';
+import LikesCounter from '../../elements/LikesCounter';
 
 function Article({
   title,
@@ -51,5 +52,15 @@ function Article({
     </section>
   );
 }
+
+Article.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired, 
+  published: PropTypes.string.isRequired,
+  likes: PropTypes.number.isRequired,
+  comments: PropTypes.number.isRequired,
+  image: PropTypes.string.isRequired,
+  tags: PropTypes.array.isRequired,
+};
 
 export default Article;

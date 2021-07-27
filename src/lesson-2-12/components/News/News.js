@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import s from './News.module.scss';
 import Article from '../Article';
 
@@ -21,5 +22,9 @@ function News({ source }) {
     </section>
   );
 }
+
+News.propTypes = {
+  source: PropTypes.arrayOf(PropTypes.shape({}).isRequired),
+};
 
 export default News;

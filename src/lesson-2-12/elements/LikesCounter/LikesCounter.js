@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useState } from 'react';
 import s from './LikesCounter.module.scss';
 
@@ -28,5 +29,9 @@ function LikesCounter({ counts }) {
     </span>
   );
 }
+
+LikesCounter.propTypes = {
+  counts: PropTypes.number.isRequired,
+};
 
 export default LikesCounter;
