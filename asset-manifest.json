@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-lectrum-lessons/static/css/main.24e0ca18.chunk.css",
+    "main.js": "/react-lectrum-lessons/static/js/main.412d013f.chunk.js",
+    "main.js.map": "/react-lectrum-lessons/static/js/main.412d013f.chunk.js.map",
+    "runtime-main.js": "/react-lectrum-lessons/static/js/runtime-main.efcdc40b.js",
+    "runtime-main.js.map": "/react-lectrum-lessons/static/js/runtime-main.efcdc40b.js.map",
+    "static/js/2.afb3dda9.chunk.js": "/react-lectrum-lessons/static/js/2.afb3dda9.chunk.js",
+    "static/js/2.afb3dda9.chunk.js.map": "/react-lectrum-lessons/static/js/2.afb3dda9.chunk.js.map",
+    "index.html": "/react-lectrum-lessons/index.html",
+    "static/css/main.24e0ca18.chunk.css.map": "/react-lectrum-lessons/static/css/main.24e0ca18.chunk.css.map",
+    "static/js/2.afb3dda9.chunk.js.LICENSE.txt": "/react-lectrum-lessons/static/js/2.afb3dda9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efcdc40b.js",
+    "static/js/2.afb3dda9.chunk.js",
+    "static/css/main.24e0ca18.chunk.css",
+    "static/js/main.412d013f.chunk.js"
+  ]
+}
